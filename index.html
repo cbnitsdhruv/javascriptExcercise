@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>javascript practice</title>
+    <link rel="stylesheet" type="text/css" href="Css/index.css" />
+
+    <style>
+        .parachange {
+            font-size: 30px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="body-box">
+        <h1>javascript assignment practice</h1>
+
+        <div id="series"></div>
+        <p id="para">
+            Click on the button to toggle
+            between the class to see the
+            effects
+        </p>
+
+        <p id="para2">
+            Click on the button to toggle
+            between the class to see the
+            effects
+        </p>
+
+        <button onclick="buttonToggle()">
+            Click Me function
+        </button>
+        <button id="mybtn">
+            Click Me by id
+        </button>
+
+        <div style="padding:25px 25px ;">
+            <div class="parent">
+                <p>Lorem Ipsum Dummy Text</p>
+                <p>Lorem Ipsum Dummy Text</p>
+                <p>Lorem Ipsum Dummy Text</p>
+                <p>Lorem Ipsum Dummy Text</p>
+                <p>Lorem Ipsum Dummy Text</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="navigation">
+                <button class="togglenav"  onclick="btnLInk()">toggle navigation</button>
+                <div class="dropdown" id="dropdown">bhjdjashgkajsdhlka</div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#mybtn").click(function () {
+                $('#para2').toggleClass('parachange')
+            });
+
+        });
+
+        $('.parent p').mouseenter(function () {
+            $(this).prev().css("background-color", "green")
+        })
+        $('.parent p').mouseleave(function () {
+            $(this).prev().css("background-color", "inherit")
+        })
+
+    </script>
+</body>
+
+</html>
