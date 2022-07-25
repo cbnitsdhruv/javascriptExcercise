@@ -71,7 +71,7 @@ function showNotes() {
 }
 
 function deleteNote(index) {
-    console.log('deleteing this', index)
+    //console.log('deleteing this', index)
     let notes = localStorage.getItem('notes');
     if (notes === null) {
         notesObj = [];

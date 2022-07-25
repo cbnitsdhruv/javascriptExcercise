@@ -230,9 +230,9 @@
 // console.log(`${student.FirstName}, live in ${student.location}, and he has ${student.friends.length},friends and his best friend is ${student.friends[2]}  `)
 
 //loop
-for(let res = 1; res<=10; res++){
-    console.log(`its response from loop and number is ${res}.`)
-}
+// for(let res = 1; res<=10; res++){
+//     console.log(`its response from loop and number is ${res}.`)
+// }
 
 //loop inside loop
 
@@ -253,60 +253,60 @@ for(let res = 1; res<=10; res++){
 // };
 
 
-function buttonToggle(){
-    let pt = document.getElementById('para')
-    pt.classList.toggle('parachange')
-}
+// function buttonToggle(){
+//     let pt = document.getElementById('para')
+//     pt.classList.toggle('parachange')
+// }
 
 
 
-let promise = new Promise((resolve, reject) =>{
-    const a = "250";
-    const b = 250;
-   setTimeout(() => {       
-        if(a==b){
-            resolve('yes its equal');
-        }else{
-            reject('no its not')
-        }
-   },1000)
-  });
-  promise
-  .then(function(data){
-    console.log(data)
-   })
-   .catch(function(err){
-        console.log(err)
-   })
+// let promise = new Promise((resolve, reject) =>{
+//     const a = "250";
+//     const b = 250;
+//    setTimeout(() => {       
+//         if(a==b){
+//             resolve('yes its equal');
+//         }else{
+//             reject('no its not')
+//         }
+//    },1000)
+//   });
+//   promise
+//   .then(function(data){
+//     console.log(data)
+//    })
+//    .catch(function(err){
+//         console.log(err)
+//    })
 
-   console.log('this will print first')
+//    console.log('this will print first')
 
-   setTimeout(()=>{
-        console.log('i wil print in 2nd row')
-   },1500)
-
-
-   let secondMax = function (arr) {     
-        let max = Math.max.apply(null, arr); // get the max of the array
-        arr.splice(arr.indexOf(max), 1); // remove max from the array
-        return Math.max.apply(null, arr); // get the 2nd max
-    };
-
-    let arr = [20, 120, 111, 215, 54, 78]; // use int arrays 
-    let max2 = secondMax(arr);
-    console.log('2nd largest number',max2);
+//    setTimeout(()=>{
+//         console.log('i wil print in 2nd row')
+//    },1500)
 
 
+//    let secondMax = function (arr) {     
+//         let max = Math.max.apply(null, arr); // get the max of the array
+//         arr.splice(arr.indexOf(max), 1); // remove max from the array
+//         return Math.max.apply(null, arr); // get the 2nd max
+//     };
 
-    let secondMin = function (arr) {     
-        let min = Math.min.apply(null, arr); // get the min of the array
-        arr.splice(arr.indexOf(min), 1); // remove max from the array
-        return Math.min.apply(null, arr); // get the 2nd min
-    };
+//     let arr = [20, 120, 111, 215, 54, 78]; // use int arrays 
+//     let max2 = secondMax(arr);
+//     console.log('2nd largest number',max2);
 
-    let arr2 = [20, 120, 111, 215, 54, 78]; // use int arrays 
-    let min2 = secondMin(arr);
-    console.log('2nd lowest number',min2);
+
+
+//     let secondMin = function (arr) {     
+//         let min = Math.min.apply(null, arr); // get the min of the array
+//         arr.splice(arr.indexOf(min), 1); // remove max from the array
+//         return Math.min.apply(null, arr); // get the 2nd min
+//     };
+
+//     let arr2 = [20, 120, 111, 215, 54, 78]; // use int arrays 
+//     let min2 = secondMin(arr);
+//     console.log('2nd lowest number',min2);
 
 
 
@@ -322,8 +322,8 @@ let promise = new Promise((resolve, reject) =>{
 //    }
 
 
-function btnLInk() {
-    let elem = document.getElementById('dropdown')
-        elem.classList.toggle('show')
-}
+// function btnLInk() {
+//     let elem = document.getElementById('dropdown')
+//         elem.classList.toggle('show')
+// }
 
