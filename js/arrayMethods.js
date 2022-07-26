@@ -188,7 +188,7 @@ console.log("method 2",uniqueArray);
 
 //16). find the 2nd min and 2nd max an array
 
-let secondMax = function (arr) {
+let secondMax = (arr) => {
     let max = Math.max.apply(null, arr); // get the max of the array
     arr.splice(arr.indexOf(max), 1); // remove max from the array
     return Math.max.apply(null, arr); // get the 2nd max
