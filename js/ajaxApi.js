@@ -42,7 +42,7 @@ function buttonClickHandler() {
     }
 
     // send the request
-    params = `{"name":"test34sad545","salary":"123","age":"23"}`;
+    params = `{"name":"test545","salary":"123","age":"23"}`;
     xhr.send(params);
 
     console.log("We are done!");

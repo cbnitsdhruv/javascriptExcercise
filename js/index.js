@@ -327,3 +327,26 @@
 //         elem.classList.toggle('show')
 // }
 
+
+// some comman practice code 
+
+let customers = [
+    {name:'priya', address:'kolkata', phone:569874123},
+    {name:'rohan', address:'jamshedpur', phone:569874123},
+    {name:'rohan', address:'dhanbad', phone:569874123},
+    {name:'susma', address:'up', phone:569874123},
+]
+
+let customer = customers.find(data=> data.name === "rohan");
+console.log(customer)
+
+//filter in array
+let data = [
+    "files/dira/filea",
+    "files/dirc/fileb",
+    "files/dirb/filea",
+    "files/dira/filec",    
+ ];
+
+ let filteredData = data.filter(path => path.includes("dirb"));
+ console.log(filteredData);

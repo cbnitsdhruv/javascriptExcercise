@@ -1,0 +1,97 @@
+
+<----------------JavaScript Qustions---------------------------->
+
+Explain Hoisting in JavaScript.
+Explain Closures in JavaScript.
+Explain Callbacks in JavaScript.
+Explain async functions in JavaScript.
+Explain the difference between '==' and '===' in JavaScript.
+Explain the purpose of constructors in JavaScript.
+Explain NaN in JavaScript.
+Explain var, const, let keywords in JavaScript.
+Explain the difference between 'null' and 'undefined' in JavaScript.
+Explain the different data types in JavaScript.
+Explain 'strict mode' in JavaScript.
+Explain Arrow Functions in JavaScript.
+Explain Object Destructuring in JavaScript.
+Explain Spread Syntax or Spread Operator.
+Explain Rest Syntax or Rest Operator.
+Explain Higher-order functions in JavaScript.
+Explain the difference between map() and forEach() in JavaScript.
+Explain the purpose of the 'this' operator in JavaScript.
+Explain events in JavaScript.
+Explain setTimeout and setInterval methods in JavaScript.
+Explain debouncing and throttling in JavaScript.
+Explain event bubbling in JavaScript.
+Explain the different scopes in JavaScript.
+Explain Scope Chain in JavaScript.
+When can you have an error that says Undefined Value on the screen?
+How is the button configuration in the Confirmation box different from the Alert box in JavaScript?
+On a client machine, how do you detect the server using JavaScript?
+What, according to you, are the differences between Java and JavaScript?
+What are timers in JavaScript?
+What is the use of Void (0)?
+How can a page be forced to load another page in JavaScript?
+What is the role of deferred scripts in JavaScript?
+
+<---------------- end JavaScript Qustions---------------------------->
+
+<---------------- HTML Qustions---------------------------->
+Does HTML need a compiler?
+Explain Semantic HTML.
+Which is the best HTML debugging tool?
+How do you use HTML5 New tags in IE8?
+Explain web accessibility.
+Explain the difference between <b> and <strong> tag.
+Explain the difference between <i> and <em> tag.
+Explain the difference between <article> and <section> tag.
+Explain Meta Viewport.
+How do you check for errors in HTML?
+Is it possible to make the HTML Source Code not viewable?
+How are active links different from normal links?
+What happens if the list-style-type property is used on a non-list element like a paragraph?
+When is it appropriate to use frames?
+What are the new FORM elements which are available in HTML5?
+What are the two types of Web Storage in HTML5?
+Explain some new input types provided by HTML5 for forms.
+Is <!DOCTYPE html> tag a HTML tag?
+What is SVG?
+What is the difference between XHTML, HTML4 and HTML5?
+
+<----------------end HTML Qustions---------------------------->
+
+<----------------AJAX Interview Questions ---------------------------->
+
+What are the security issues with AJAX?
+What are the differences between synchronous and asynchronous requests?
+What is the purpose of XMLHttpRequest?
+What is the role of a callback function in AJAX?
+List some tools available for debugging AJAX applications.
+What is the difference between JavaScript and AJAX?
+What are the different ready states of a request in AJAX?
+What are the types of postback in AJAX?
+Explain JSON in AJAX.
+How do you test AJAX code?
+
+
+CSS Interview Questions
+What is the difference between reset.css and normalize CSS?
+What is the CSS Box Model?
+How will you check for coding errors in CSS?
+What is the difference between display none and visibility hidden?
+How do you center align a div tag in CSS?
+How do you vertically align a div in CSS?
+Suggest three ways to reduce the load time of a page.
+Suggest any three position-property attributes.
+
+
+Interview Questions for 6 Years Experience
+What are floats, and how do they work?
+Suggest three plugins present in the Bootstrap jQuery plugin library.
+Which CSS class will you employ to span 16 columns on medium screens and 10 columns on large screens?
+How will you verify whether a variable is set in PHP or not?
+What’s the difference between require() and include() in errors?
+What is a CSS reset?
+How will you use an AJAX request?
+How will you use HTML5 new tags in IE8?
+How will you test website performance?

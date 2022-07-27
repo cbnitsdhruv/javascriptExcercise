@@ -195,18 +195,20 @@ let secondMax = (arr) => {
 };
 
 let arr = [20, 120, 111, 215, 54, 78]; // use int arrays 
+//console.log("maximum number",Math.max(...arr))
+
 let max2 = secondMax(arr);
 console.log(`2nd largest number in ${arr} => is ${max2}`);
 
 
-
 let secondMin = function (arr) {
-    let min = Math.min.apply(null, arr); // get the min of the array
-    arr.splice(arr.indexOf(min), 1); // remove max from the array
-    return Math.min.apply(null, arr); // get the 2nd min
+    let min = Math.min(...arr); // get the min of the array
+    arr.splice(arr.indexOf(min), 1); // remove min from the array
+    return Math.min(...arr); // get the 2nd min
 };
 
 let arr2 = [20, 120, 111, 215, 54, 78]; // use int arrays 
+//console.log("minimum number",Math.min(...arr2))
 let min2 = secondMin(arr2);
 console.log(`2nd lowest number in ${arr2} => is ${min2}`);
 
@@ -214,6 +216,33 @@ console.log(`2nd lowest number in ${arr2} => is ${min2}`);
 
 /***************************************************************************************************************/
 
+//17). find the occurrence in array 
+
+// const occur = [2, 2, 2, 4, 5, 5, 5, 9,9, 8, 7, 3,];
+// const result = occur.reduce((acc, curr) => (acc[curr] = (acc[curr] || 0) + 1, acc), {});
+
+// console.log('occurrence array =>', occur)
+// console.log("occurrence are =>", result);
+
+let myArray = [3,2,3,3,5,6,5,5,8,4,4,7,7,7];
+let counts = {};
+
+for ( let num of myArray) {
+  counts[num] = counts[num] ? counts[num] + 1 : 1;
+}
+
+console.log('occurrence array =>', myArray)
+console.log("occurrence are =>", counts);
 
 
+//18). filter in array filter with match 
 
+let data = [
+    "files/dira/filea",
+    "files/dirc/fileb",
+    "files/dirb/filea",
+    "files/dira/filec",    
+ ];
+
+ let filteredData = data.filter(path => path.includes("dirb"));
+ console.log(filteredData);
